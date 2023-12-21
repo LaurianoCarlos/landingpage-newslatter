@@ -8,6 +8,7 @@ body{
     margin: 0 auto;
     padding: 10px;
 }
+
 /*cabecalho*/
 header{
     display: flex;
@@ -15,17 +16,19 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 /*titulo-cabecalho*/
 .titulo-header{
     flex-direction: column;
     line-height: 10px;
 }
+
 /*afina as letras do titulo*/
 h1{
     font-weight: 200;
 }
 
-header li,a{
+header li, a{
     display: inline-block;
     text-decoration: none;
     margin: 15px;
